@@ -8,13 +8,13 @@
           >New</span
         >
         <div v-if="movieRank" class="flex">
-          <span
-            class="text-white md:w-[100px] w-[60px] md:text-[70px] text-[30px] font-extrabold align-bottom mt-auto bg-gradient-to-t from-slate-700"
-            >{{ index + 1 }}</span
+          <div
+            class=" inline-block p-1 md:text-7xl text-4xl align-bottom mt-auto bg-gradient-to-t from-slate-700"
+            ><span class="text-white font-extrabold float-end">{{ index + 1 }}</span> </div
           >
           <img
             :src="imageURL"
-            class="md:w-[200px] w-[140px] md:h-[200px] h-[130px]"
+            class="md:w-[230px] w-[170px] md:h-[200px] h-[130px]"
             alt="MovieCard"
           />
         </div>
@@ -34,7 +34,7 @@
         class="text-left"
         :class="
           movieRank
-            ? 'md:ml-[90px] ml-[50px] md:text-[12px] text-[8px]'
+            ? 'md:ml-[60px] ml-[40px] md:text-[12px] text-[8px]'
             : 'ml-0 md:text-[14px] text-[10px]'
         "
       >
