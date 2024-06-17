@@ -13,7 +13,7 @@
       class="float-right flex justify-end md:justify-between md:w-2/12 items-center pt-2 md:m-0"
     >
       <div class="hidden md:inline-block">🔍</div>
-      <button class="bg-primary rounded-md px-2 py-1 text-white">
+      <button class="bg-primary rounded-md px-2 py-1 font-bold text-white">
         Stream Now
       </button>
       <div class="hidden md:inline-block">👤</div>

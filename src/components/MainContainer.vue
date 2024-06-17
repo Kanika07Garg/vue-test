@@ -3,7 +3,7 @@
     <div class="mt-0 relative">
       <DisplayMovie :movieDetails="movieData[0]"></DisplayMovie>
       <MovieList :movieDetails="movieData[1]"></MovieList>
-      <MovieList :movieDetails="movieData[2]"></MovieList>
+      <MovieList :movieRank="true" :movieDetails="movieData[2]"></MovieList>
     </div>
   </div>
 </template>
