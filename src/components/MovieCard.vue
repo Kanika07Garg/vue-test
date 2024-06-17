@@ -14,7 +14,7 @@
           >
           <img
             :src="imageURL"
-            class="md:w-[200px] w-[140px] md:h-[240px] h-[160px]"
+            class="md:w-[200px] w-[140px] md:h-[200px] h-[130px]"
             alt="MovieCard"
           />
         </div>
@@ -22,7 +22,7 @@
           <img
             :src="imageURL"
             :class="
-              display ? 'md:h-[300px] h-[180px]' : 'md:h-[500px] h-[300px]'
+              display ? 'md:h-[270px] h-[160px]' : 'md:h-[500px] h-[300px] object-cover object center'
             "
             alt="MovieCard"
           />
@@ -78,3 +78,4 @@ export default {
   },
 };
 </script>
+
